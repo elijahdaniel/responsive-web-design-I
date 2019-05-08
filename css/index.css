@@ -1,3 +1,182 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 10px;
+	text-align: center;
+	background: white;
+	padding-bottom: 5px;
+	z-index: 1;
+	width: 800px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding: 4px 20px;
+	text-align: center;
+	border-radius: 50px;
+	transition: background 1s ease, color .5s ease, border-radius .5s ease;
+}
+
+nav a:hover {
+	color: white;
+	background: black;
+	border-radius: 0;
+	box-shadow: 0 8px 6px -6px gray;
+}
+
+.logo {
+	vertical-align: text-bottom;
+	width: 150px;
+	padding-left: 10px;
+}
+
+header {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header img {
+	width: 300px;
+	height: 300px;
+}
+
+header H1 {
+	font-size: 45px;
+	padding: 20px;
+}
+
+header H1 A {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 5px 20px;
+	margin: 20px;
+	text-decoration: none;
+	color: black;
+	transition: background 1s ease, color .5s ease;
+	box-shadow: 0 8px 6px -6px gray;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header H1 A:hover {
+	background-image: linear-gradient(to bottom, rgb(105, 105, 105), black);
+	color: white;
+}
+
+.box-rows {
+	width: 850px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.boxtop {
+	width: 400px;
+	padding: 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.boxbottom {
+	width: 270px;
+	padding: 20px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+#contact {
+	padding-top: 30px;
+	margin-bottom: 80px;
+}
+
+footer {
+	text-align: center;
+}
