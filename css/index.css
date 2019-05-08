@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5 {
 	.container {
 		width: 500px;
 	}
+
+	.contain-service {
+		width: 500px;
+	}
 }
 
 nav {
@@ -258,6 +262,12 @@ header H1 A:hover {
 	width: 100%;
 }
 
+@media(max-width: 500px) {
+	.services-header-img {
+		visibility: hidden;
+	}
+}
+
 
 .top-services {
     margin-top: 30px;
@@ -272,6 +282,14 @@ header H1 A:hover {
 
 }
 
+@media(max-width: 500px) {
+	.top-services{
+		margin-top: -40px;
+		font-size: 18px;
+	}
+}
+
+
 .box-rows {
 	width: 850px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -284,6 +302,8 @@ header H1 A:hover {
 	width: 400px;
 	padding: 20px;
 }
+
+
 
 .mid-box {
 	text-align: center;
@@ -396,6 +416,23 @@ hr {
 	padding: 10px 10px;
 }
 
+
+@media(max-width: 500px) {
+	.card-rows {
+		width: 500px;
+		display: inline-block;
+	}
+
+	.cards {
+		width: 470px;
+	}
+
+	.cards a {
+		float: right;
+		font-size: 20px;
+	}
+}
+
 .facts {
     margin-top: 20px;
     display: flex;
@@ -409,6 +446,22 @@ hr {
 
 .facts-rows {
     margin: 20px;
+}
+
+@media(max-width: 500px) {
+	.facts {
+		width: 500px;
+		display: inline-block;
+	}
+
+	.facts-rows {
+		width: 470px;
+		
+	}
+
+	.facts img {
+		visibility: hidden;
+	}
 }
 
 
