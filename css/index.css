@@ -73,6 +73,11 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+.contain-service {
+	width: 800px;
+	margin: 0 auto;
+}
+
 @media(max-width: 500px) {
 	body {
 		overflow-y: scroll;
@@ -313,7 +318,7 @@ header H1 A:hover {
 }
 
 hr {
-	border: 1px solid black;
+	border-top: 1px solid black;
 }
 
 @media(max-width: 800px) {
@@ -337,6 +342,36 @@ hr {
 	#contact {
 		padding-left: 30px;
 	}
+}
+
+.card-rows {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    flex: 0 45%;
+    /* explanation below */
+    margin: 10px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid black;
+}
+
+.cards a {
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 12px;
+    background: white;
+    color: black;
+}
+
+.facts ul {
+	list-style-type: square;
 }
 
 footer {
