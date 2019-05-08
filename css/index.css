@@ -333,6 +333,12 @@ hr {
 	}
 }
 
+@media(max-width: 500px) {
+	#contact {
+		padding-left: 30px;
+	}
+}
+
 footer {
 	text-align: center;
 }
