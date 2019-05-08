@@ -175,6 +175,14 @@ nav a:hover {
 	}
 }
 
+@media(max-width: 500px) {
+	.logo {
+		position: relative;
+		top: -423px;
+		left: -5px;
+	}
+}
+
 header {
 	text-align: center;
 	padding-top: 60px;
@@ -210,6 +218,13 @@ header H1 {
 		width: 300px;
 		left: -10px;
 		height: 250px;
+	}
+}
+
+@media(max-width: 500px) {
+	header h1 {
+		position: relative;
+		top: -40px;
 	}
 }
 
