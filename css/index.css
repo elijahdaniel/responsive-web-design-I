@@ -297,6 +297,21 @@ header H1 A:hover {
 	}
 }
 
+@media(max-width: 500px) {
+	.box-rows {
+		display: inline-block;
+	}
+	
+	.boxtop {
+		width: 500px;
+	}
+
+	.boxbottom {
+		width: 500px;
+		padding: 30px;
+	}
+}
+
 hr {
 	border: 1px solid black;
 }
