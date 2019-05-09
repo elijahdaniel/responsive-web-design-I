@@ -262,10 +262,24 @@ header H1 A:hover {
 	width: 100%;
 }
 
+@media(max-width: 800px) {
+	.services-header-img {
+		width: 90%;
+	}
+}
+
+.imgserv {
+	text-align: center;
+}
+
 @media(max-width: 500px) {
+	.imgserv {
+		text-align: center;
+	}
 	.services-header-img {
 		visibility: hidden;
 	}
+
 }
 
 
